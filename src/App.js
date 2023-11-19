@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src="./images/dawg.jpg" className="App-logo" alt="dawg"/>
+        <img src="./images/Silly Dog.jpg" className="App-logo rounded" alt="dawg"/>
         <p>
           Denme trabajo por favor
         </p>
