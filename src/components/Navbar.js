@@ -9,9 +9,9 @@ function Navbar() {
             <nav class="navbar navbar-expand-lg navbar-light bg-body-secondary">
                 <div class="container-fluid">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
+                        <i class="fa-solid fa-bars-staggered"></i>
                     </button>
-                    <img src="./images/md2.png" height="40" width="80" alt="Nombre" class="position-absolute translate-middle top-50 start-50 d-lg-none float-center"/>
+                    <i class="position-absolute translate-middle top-50 start-50 d-lg-none float-center fa-solid fa-code"></i>
                     <div class="collapse navbar-collapse px-5 py-3 fs-5" id="navbarNavAltMarkup">
                         <div class="navbar-nav container">
                             <NavLink to="/projects" activeClassName="active" className="nav-link" aria-current="page">Projects</NavLink>
