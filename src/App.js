@@ -1,15 +1,13 @@
 import './App.css';
+import { Route, Routes } from 'react-router-dom';
+import Home from './components/Home';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header bg">
-        <img src="./images/Silly Dog.jpg" className="App-logo rounded" alt="dawg"/>
-        <p>
-          Denme trabajo por favor
-        </p>
-        <h5>© Todos los derechos reservados</h5>       
-      </header>
+      <Routes>
+        <Route path="/portfolio" element={<Home/>} />
+      </Routes>
     </div>
   );
 }
