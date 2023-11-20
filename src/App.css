@@ -40,3 +40,9 @@
 .rounded {
 border-radius: 12px;
 }
+
+.bg {
+background-image: url('../public/images/smilingdog.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+}
