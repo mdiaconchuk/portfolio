@@ -8,10 +8,10 @@ function Navbar() {
         <div>
             <nav class="navbar navbar-expand-lg navbar-light bg-body-secondary">
                 <div class="container-fluid">
+                    <i class="navbar-brand m-auto ps-5 d-lg-none float-center fa-solid fa-code"></i>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <i class="fa-solid fa-bars-staggered"></i>
                     </button>
-                    <i class="position-absolute translate-middle top-50 start-50 d-lg-none float-center fa-solid fa-code"></i>
                     <div class="collapse navbar-collapse px-5 py-3 fs-5" id="navbarNavAltMarkup">
                         <div class="navbar-nav container">
                             <NavLink to="/projects" activeClassName="active" className="nav-link" aria-current="page">Projects</NavLink>
