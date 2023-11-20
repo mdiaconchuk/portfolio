@@ -1,13 +1,13 @@
 import React from 'react'
 import Navbar from './Navbar'
 
-function Home() {
+function Projects() {
   return (
     <div>
     <Navbar/>
-    <p>Home</p>
+    Projects
     </div>
   )
 }
 
-export default Home
+export default Projects
