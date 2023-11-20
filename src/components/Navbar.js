@@ -11,7 +11,7 @@ function Navbar() {
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <img src="./images/nombre2.png" height="45" width="140" alt="Nombre" class="position-absolute translate-middle top-50 start-50 d-lg-none float-center"/>
+                    <img src="./images/nombre2.png" height="40" width="160" alt="Nombre" class="position-absolute translate-middle top-50 start-50 d-lg-none float-center"/>
                     <div class="collapse navbar-collapse px-5 py-3 fs-5" id="navbarNavAltMarkup">
                         <div class="navbar-nav container">
                             <NavLink to="/projects" activeClassName="active" className="nav-link" aria-current="page">Projects</NavLink>
