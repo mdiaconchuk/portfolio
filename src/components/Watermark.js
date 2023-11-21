@@ -1,0 +1,9 @@
+import React from 'react'
+
+function watermark() {
+  return (
+    <div class="text-secondary text-opacity-50 fst-italic my-5">Matías Diaconchuk - 2023</div>
+  )
+}
+
+export default watermark
