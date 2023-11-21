@@ -32,20 +32,28 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
 }
 
 .rounded {
-border-radius: 12px;
+  border-radius: 12px;
 }
 
 .bg {
-background-image: url('../public/images/smilingdog.jpg');
-background-repeat: no-repeat;
-background-size: cover;
+  background-image: url('../public/images/smilingdog.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 * {
-font-family: Comfortaa, sans-serif;}
+  font-family: Comfortaa, sans-serif;
+}
+
+.bgwave {
+  background-image: url('../public/images/waves.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
