@@ -15,9 +15,9 @@ function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse px-5 py-3 fs-5" id="navbarNavAltMarkup">
                         <div class="navbar-nav container">
-                            <NavLink to="/portfolio" activeClassName="active fw-bold" className="nav-link" aria-current="page">Projects</NavLink>
-                            <NavLink to="/portfolio/about" activeClassName="active fw-bold" className="nav-link" aria-current="page">About me</NavLink>
-                            <NavLink to="/portfolio/contact" activeClassName="active fw-bold" className="nav-link" aria-current="page">Contact</NavLink>
+                            <Link to="/portfolio" className="nav-link" aria-current="page">Projects</Link>
+                            <Link to="/portfolio/about" className="nav-link" aria-current="page">About me</Link>
+                            <Link to="/portfolio/contact" className="nav-link" aria-current="page">Contact</Link>
 
                             <div class="h5 d-lg-none" id="redes">
                                 <ul class="navbar-collapse nav justify-content-center">
@@ -44,7 +44,7 @@ function Navbar() {
                                         <a class="nav-link" href="https://www.instagram.com/matidiaconchuk/" target='blank'><i class="fa-brands fa-instagram"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <Link to="/contact" class="nav-link"><i class="fa-solid fa-envelope"></i></Link>
+                                        <Link to="/portfolio/contact" class="nav-link"><i class="fa-solid fa-envelope"></i></Link>
                                     </li>
                                 </ul>
                             </div>
