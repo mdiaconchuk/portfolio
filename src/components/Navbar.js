@@ -2,6 +2,7 @@ import React from 'react'
 import About from './About'
 import Projects from './Projects'
 import { NavLink } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
@@ -43,7 +44,7 @@ function Navbar() {
                                         <a class="nav-link" href="https://www.instagram.com/matidiaconchuk/" target='blank'><i class="fa-brands fa-instagram"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="/contact"><i class="fa-solid fa-envelope"></i></a>
+                                        <Link to="/contact" class="nav-link"><i class="fa-solid fa-envelope"></i></Link>
                                     </li>
                                 </ul>
                             </div>
