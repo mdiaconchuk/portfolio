@@ -51,3 +51,9 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.gifwave {
+  background-image: url('../public/assets/images/waves.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
