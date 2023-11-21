@@ -15,9 +15,9 @@ function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse px-5 py-3 fs-5" id="navbarNavAltMarkup">
                         <div class="navbar-nav container">
-                            <NavLink to="/projects" activeClassName="active fw-bold" className="nav-link" aria-current="page">Projects</NavLink>
-                            <NavLink to="/about" activeClassName="active fw-bold" className="nav-link" aria-current="page">About me</NavLink>
-                            <NavLink to="/contact" activeClassName="active fw-bold" className="nav-link" aria-current="page">Contact</NavLink>
+                            <NavLink to="/portfolio" activeClassName="active fw-bold" className="nav-link" aria-current="page">Projects</NavLink>
+                            <NavLink to="/portfolio/about" activeClassName="active fw-bold" className="nav-link" aria-current="page">About me</NavLink>
+                            <NavLink to="/portfolio/contact" activeClassName="active fw-bold" className="nav-link" aria-current="page">Contact</NavLink>
 
                             <div class="h5 d-lg-none" id="redes">
                                 <ul class="navbar-collapse nav justify-content-center">
