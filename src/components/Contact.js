@@ -19,7 +19,7 @@ function Contact() {
         </div>
         <div class="mb-3">
           <textarea class="form-control w-75 m-auto bg-secondary-subtle" id="exampleFormControlTextarea1" rows="3" placeholder='Your message...'></textarea>
-        </div>
+        </div> 1
       </div>
     </div>
   )
