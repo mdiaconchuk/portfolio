@@ -6,8 +6,8 @@ function Contact() {
     <div>
       <Navbar />
       <div class="container border border-1 rounded py-5 my-3 bgtext bgwave shadow-lg h-75">
-        <p class="fs-4"><i class="text-danger fa-regular fa-envelope"></i> <span class="fw-bold bg-body-secondary rounded mx-1">You can contact me freely at </span> <span class="bg-danger-subtle rounded text-danger">mdiaconchuk@gmail.com</span></p>
-        <img src="../images/Gmail.png" class="my-3 h-25 w-25" />
+        <p class="fs-4"><i class="text-danger fa-regular fa-envelope"></i> <span class="bg-body-secondary rounded mx-1">You can contact me freely at </span> <span class="bg-danger-subtle rounded text-danger">mdiaconchuk@gmail.com</span></p>
+        <img src="./images/Gmail.png" class="my-3 h-25 w-25" />
 
         {/*  INTRODUCCIÓN ARRIBA */}
 
