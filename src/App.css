@@ -52,8 +52,8 @@
   background-repeat: no-repeat;
 }
 
-.gifwave {
-  background-image: url('../public/assets/images/waves.gif');
+.bgdark {
+  background-image: url('../public/assets/images/darkwpp.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }

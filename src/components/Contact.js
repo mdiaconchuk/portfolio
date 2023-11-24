@@ -17,7 +17,8 @@ function Contact() {
       e.preventDefault();
       emailjs.sendForm('service_2wsxgmb', 'template_q4hwmh9', form, 'oZL4atEcfGgQey3n5');
       setButtonText('Done');
-      submit.className= "btn btn-success px-5 rounded-pill";
+      submit.className= "btn btn-success px-5 text-white rounded-pill shadow-lg";
+
     }
     catch(err) {
       alert(err)
@@ -45,7 +46,7 @@ function Contact() {
           </div>
           {/* FORMULARIO */}
 
-          <button type="submit" value="Send" id="submitButton" className={'btn btn-info px-5 rounded-pill'}>{buttonText}</button>
+          <button type="submit" value="Send" id="submitButton" className={ 'btn btn-info text-white px-5 rounded-pill shadow shadow-lg'}>{buttonText}</button>
 
           {/*  SUBMIT BUTTON */}
         </form>
