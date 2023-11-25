@@ -5,7 +5,7 @@ function Projects() {
   return (
     <div>
     <Navbar/>
-    Projects
+    My projects.
     </div>
   )
 }

@@ -28,8 +28,8 @@ function Contact() {
   return (
     <div>
       <Navbar />
-      <div class="container border border-1 rounded py-5 my-3 bgtext bgwave shadow-lg h-75">
-        <p class="fs-4"><i class="text-danger fa-regular fa-envelope"></i> <span class="bg-body-secondary rounded mx-1">You can contact me freely at </span> <span class="bg-danger-subtle rounded text-danger">mdiaconchuk@gmail.com</span></p>
+      <div class="w-100 border border-1 rounded py-5 bgtext bg-light shadow-lg h-50 bg-light-subtle bgwave">
+        <p class="fs-4"><i class="text-danger fa-regular fa-envelope"></i> <span class="rounded mx-1 bg-body-secondary">You can contact me freely at </span> <span class="bg-danger-subtle rounded text-danger">mdiaconchuk@gmail.com</span></p>
         <img class="w-25 my-2" src="./assets/images/Gmail.png" />
 
         {/*  INTRODUCCIÓN ARRIBA */}

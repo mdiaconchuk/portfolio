@@ -14,9 +14,9 @@ function Navbar() {
                         <i class="fa-solid fa-bars-staggered"></i>
                     </button>
                     <div class="collapse navbar-collapse px-5 py-3 fs-5" id="navbarNavAltMarkup">
-                        <div class="navbar-nav container">
-                            <Link to="/portfolio" className="nav-link" aria-current="page">Projects</Link>
+                        <div class="navbar-nav container">      
                             <Link to="/portfolio/about" className="nav-link" aria-current="page">About me</Link>
+                            <Link to="/portfolio" className="nav-link" aria-current="page">Projects</Link>
                             <Link to="/portfolio/contact" className="nav-link" aria-current="page">Contact</Link>
 
                             <div class="h5 d-lg-none" id="redes">
