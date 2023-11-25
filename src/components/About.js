@@ -9,12 +9,12 @@ function About() {
       <Navbar />
       {/* INTRO */}
       <div class="text-white py-5 w-100 text-dark bg-opacity-100 fw-bold">
-        <p class="fs-1 my-5">¡Hello! <span class="text-decoration-underline">i'm Matías Diaconchuk.</span></p><br /><br /><br /><br />
+        <p class="fs-1 my-5">¡Hello! <span class="text-decoration-underline">i'm Matías Diaconchuk.</span></p><br /><br /><br />
 
         <p class="fs-3">I am a front-end developer from <span class="text-info">Argentina</span>,<br /> and I enjoy creating simple and easy-to-use web applications.</p>
 
-        <div class="container text-center"> <br /><br /><br /><br /><br />
-          <div class="row px-5 py-5">
+        <div class="container text-center"> <br /><br /><br />
+          <div class="row p-auto py-5">
             <div class="col">
               <Link to="/portfolio" class="nav-link"><button type="button" class="btn btn-light p-2">See my projects</button></Link>
             </div>
@@ -27,7 +27,7 @@ function About() {
           </div>
           {/* FIN INTRO */}
 
-        </div> <br /><br /><br /><br /><br /><br /><br /><br /><br />
+        </div> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
         <div id="backgroundGris" class="bggris w-100 py-5">
 
           {/* SECCIÓN ABOUT */}
