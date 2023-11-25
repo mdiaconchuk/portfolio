@@ -6,7 +6,6 @@ import Contact from './Contact'
 function About() {
   return (
     <div>
-      <Navbar />
       {/* INTRO */}
       <div class="text-white py-5 w-100 text-dark bg-opacity-100 fw-bold">
         <p class="fs-1 my-5">¡Hello! <span class="text-decoration-underline">i'm Matías Diaconchuk.</span></p><br /><br /><br />
@@ -16,7 +15,7 @@ function About() {
         <div class="container text-center"> <br /><br /><br />
           <div class="row p-auto py-5">
             <div class="col">
-              <Link to="/portfolio" class="nav-link"><button type="button" class="btn btn-light p-2">See my projects</button></Link>
+              <Link to="/portfolio/" class="nav-link"><button type="button" class="btn btn-light p-2">See my projects</button></Link>
             </div>
             <div class="col fs-5">
               or...
@@ -28,7 +27,7 @@ function About() {
           {/* FIN INTRO */}
 
         </div> <br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-        <div id="backgroundGris" class="bggris w-100 py-5">
+        <div id="about" class="bggris w-100 py-5">
 
           {/* SECCIÓN ABOUT */}
           <p class="fs-2 text-decoration-underline text-info">About</p>

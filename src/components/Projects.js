@@ -3,8 +3,7 @@ import Navbar from './Navbar'
 
 function Home() {
   return (
-    <div>
-      <Navbar />
+    <div id="projects">
       {/* titulo */}
       <p class="fs-2 text-decoration-underline text-info my-5 m-auto">Projects</p>
 

@@ -13,10 +13,7 @@ function App() {
     <div className="App">
       <ParticlesBackground/>
       <Routes>
-        <Route path="/portfolio" element={<Portfolio />} />
-        <Route path="/portfolio/about" element={<About />} />
-        <Route path="/portfolio/projects" element={<Projects />} />
-        <Route path="/portfolio/contact" element={<Contact />} />
+        <Route path="/portfolio/" element={<Portfolio />} />
       </Routes>
       <Watermark />
     </div>

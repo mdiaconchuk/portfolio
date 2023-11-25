@@ -26,8 +26,7 @@ function Contact() {
   }
 
   return (
-    <div>
-      <Navbar />
+    <div id="contact">
       <div class="w-100 py-5 bgtext shadow-lg h-50 my-5 bggris">
         <p class="fs-4"><i class="text-danger fa-regular fa-envelope"></i> <span class="rounded mx-1 text-light">You can contact me freely at </span> <span class="bg-danger-subtle rounded text-danger">mdiaconchuk@gmail.com</span></p>
         <img class="w-25 my-2" src="./assets/images/Gmail.png" />
