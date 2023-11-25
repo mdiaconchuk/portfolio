@@ -11,7 +11,7 @@ function About() {
         <p class="fs-1 my-5">¡Hello! <span class="text-decoration-underline">i'm Matías Diaconchuk.</span></p>
 
         <div class="container text-center px-5">
-          <div class="row">
+          <div class="row gy-3 img-fluid">
             <div class="col">
               <img src="./assets/images/react.png"></img>
             </div>
