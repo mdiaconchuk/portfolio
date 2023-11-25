@@ -44,7 +44,7 @@ function Navbar() {
                                         <a class="nav-link" href="https://www.instagram.com/matidiaconchuk/" target='blank'><i class="fa-brands fa-instagram"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <Link to="/portfolio/contact" class="nav-link"><i class="fa-solid fa-envelope"></i></Link>
+                                        <Link to="/portfolio/about" class="nav-link"><i class="fa-solid fa-envelope"></i></Link>
                                     </li>
                                 </ul>
                             </div>
