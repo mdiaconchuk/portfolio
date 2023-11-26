@@ -6,7 +6,7 @@ function Intro() {
             <div class="text-white py-5 w-100 text-dark bg-opacity-100 fw-bold">
                 <p class="fs-1 my-5">¡Hola! <span class="text-decoration-underline">soy Matías Diaconchuk.</span></p><br /><br /><br />
 
-                <p class="fs-3">Un desarrollador Front-End de <span class="text-info">Argentina</span>,<br /> que disfruta crear aplicaciones web simples y fáciles de usar.</p>
+                <p class="fs-3 mx-4">Un desarrollador Front-End de <span class="text-info">Argentina</span>,<br /> que disfruta crear aplicaciones web simples y fáciles de usar.</p>
 
                 <div class="container text-center"> <br /><br /><br />
                     <div class="row p-auto py-5">
