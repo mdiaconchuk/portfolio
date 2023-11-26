@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom'
 
 function Navbar() {
     return (
-        <div>
+        <div id="navbar">
             <nav class="navbar navbar-expand-lg navbar-light bg-body-secondary">
                 <div class="container-fluid">
                     <i class="navbar-brand m-auto ps-5 d-lg-none float-center fa-solid fa-code"></i>
@@ -15,9 +15,9 @@ function Navbar() {
                     </button>
                     <div class="collapse navbar-collapse px-5 py-3 fs-5" id="navbarNavAltMarkup">
                         <div class="navbar-nav container">      
-                            <a href="#about" class="nav-link" aria-current="page">About me</a>
-                            <a href="#projects" class="nav-link" aria-current="page">Projects</a>
-                            <a href="#contact" class="nav-link" aria-current="page">Contact</a>
+                            <a href="#about" class="nav-link" aria-current="page">Sobre mí</a>
+                            <a href="#projects" class="nav-link" aria-current="page">Proyectos</a>
+                            <a href="#contact" class="nav-link" aria-current="page">Contáctame</a>
 
                             <div class="h5 d-lg-none" id="redes">
                                 <ul class="navbar-collapse nav justify-content-center">
@@ -44,7 +44,7 @@ function Navbar() {
                                         <a class="nav-link" href="https://www.instagram.com/matidiaconchuk/" target='blank'><i class="fa-brands fa-instagram"></i></a>
                                     </li>
                                     <li class="nav-item">
-                                        <Link to="/portfolio/about" class="nav-link"><i class="fa-solid fa-envelope"></i></Link>
+                                        <a href="#contact" class="nav-link"><i class="fa-solid fa-envelope"></i></a>
                                     </li>
                                 </ul>
                             </div>

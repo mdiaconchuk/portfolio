@@ -3,9 +3,12 @@ import Navbar from './Navbar'
 
 function Home() {
   return (
-    <div id="projects">
+    <div id="projects" class="bggris">
       {/* titulo */}
-      <p class="fs-2 text-decoration-underline text-info my-5 m-auto">Projects</p>
+      <br/>
+      <p class="fs-2 text-decoration-underline text-info m-auto">Mis proyectos</p>
+
+      <button type="button" class="btn btn-outline-light my-5 m-auto p-auto shadow-lg rounded-pill">Descargar CV</button>
 
       {/* CARROUSEL */}
       <div id="carouselExampleCaptions" class="carousel slide">
@@ -14,23 +17,23 @@ function Home() {
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
-        <div class="carousel-inner m-auto h-75">
-          <div class="carousel-item active">
-            <img src="./assets/images/waves.jpg" class="d-block w-100" alt="..." />
+        <div class="carousel-inner m-auto w-75">
+          <div class="carousel-item active img-fluid">
+            <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>First slide label</h5>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="./assets/images/waves.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-item img-fluid">
+            <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
-          <div class="carousel-item">
-            <img src="./assets/images/waves.jpg" class="d-block w-100" alt="..." />
+          <div class="carousel-item img-fluid">
+            <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>

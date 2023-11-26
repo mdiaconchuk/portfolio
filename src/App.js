@@ -6,6 +6,7 @@ import Watermark from './components/Watermark';
 import ParticlesBackground from './components/ParticlesBackground';
 import Projects from './components/Projects'
 import Portfolio from './components/Portfolio';
+import ToStart from './components/ToStart';
 
 function App() {
   
@@ -15,7 +16,6 @@ function App() {
       <Routes>
         <Route path="/portfolio/" element={<Portfolio />} />
       </Routes>
-      <Watermark />
     </div>
   );
 }

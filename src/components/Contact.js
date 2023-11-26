@@ -17,35 +17,35 @@ function Contact() {
       e.preventDefault();
       emailjs.sendForm('service_2wsxgmb', 'template_q4hwmh9', form, 'oZL4atEcfGgQey3n5');
       setButtonText('Done');
-      submit.className= "btn btn-success px-5 text-white rounded-pill shadow-lg";
+      submit.className = "btn btn-outline-success px-5 rounded-pill shadow-lg";
 
     }
-    catch(err) {
+    catch (err) {
       alert(err)
-   }
+    }
   }
 
   return (
     <div id="contact">
-      <div class="w-100 py-5 bgtext shadow-lg h-50 my-5 bggris">
-        <p class="fs-4"><i class="text-danger fa-regular fa-envelope"></i> <span class="rounded mx-1 text-light">You can contact me freely at </span> <span class="bg-danger-subtle rounded text-danger">mdiaconchuk@gmail.com</span></p>
-        <img class="w-25 my-2" src="./assets/images/Gmail.png" />
-
+      <div class="w-100 py-5 bgtext h-50 my-5 bggris">
+        <p class="fs-2 text-decoration-underline text-info my-5 m-auto">Contacto</p>
+        <p class="fs-4"><i class="text-danger fa-regular fa-envelope m-auto"></i> <span class="rounded mx-1 text-light">¡Siéntete libre de contactarme en </span> <span class="bg-danger-subtle rounded-3 text-danger p-1">mdiaconchuk@gmail.com</span><span class="text-white">!</span></p>
+        <img class="m-auto my-2" src="./assets/images/Gmail.png" />
         {/*  INTRODUCCIÓN ARRIBA */}
 
         <form id="formContact" onSubmit={enviarMail}>
           <div class="mb-3">
-            <input type="text" class="bg-body-secondary form-control w-75 m-auto" name="user_name" placeholder="Your name..." required/>
+            <input type="text" class="bg-body-secondary form-control w-75 m-auto" name="user_name" placeholder="Tu nombre..." required />
           </div>
           <div class="mb-3">
-            <input type="email" class="bg-body-secondary form-control w-75 m-auto" name="user_mail" placeholder="Your mail..." required/>
+            <input type="email" class="bg-body-secondary form-control w-75 m-auto" name="user_mail" placeholder="Tu mail..." required />
           </div>
           <div class="mb-3">
-            <textarea class="form-control w-75 m-auto bg-body-secondary" name="message" rows="3" placeholder='Your message...' required></textarea>
+            <textarea class="form-control w-75 m-auto bg-body-secondary" name="message" rows="3" placeholder='Tu mensaje...' required></textarea>
           </div>
           {/* FORMULARIO */}
-
-          <button type="submit" value="Send" id="submitButton" className={ 'btn btn-info text-white px-5 rounded-pill shadow shadow-lg'}>{buttonText}</button>
+          k
+          <button type="submit" value="Send" id="submitButton" className={'btn btn-outline-light px-5 rounded-pill shadow shadow-lg'}>{buttonText}</button>
 
           {/*  SUBMIT BUTTON */}
         </form>
