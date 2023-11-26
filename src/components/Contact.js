@@ -35,13 +35,13 @@ function Contact() {
 
         <form id="formContact" onSubmit={enviarMail}>
           <div class="mb-3">
-            <input type="text" class="bg-body-secondary form-control w-75 m-auto d-flex" name="user_name" placeholder="Tu nombre..." required />
+            <input type="text" class="bg-body-secondary form-control w-50 m-auto d-flex" name="user_name" placeholder="Tu nombre..." required />
           </div>
           <div class="mb-3">
-            <input type="email" class="bg-body-secondary form-control w-75 m-auto" name="user_mail" placeholder="Tu mail..." required />
+            <input type="email" class="bg-body-secondary form-control w-50 m-auto" name="user_mail" placeholder="Tu mail..." required />
           </div>
           <div class="mb-3">
-            <textarea class="form-control w-75 m-auto bg-body-secondary" name="message" rows="3" placeholder='Tu mensaje...' required></textarea>
+            <textarea class="form-control w-50 m-auto bg-body-secondary" name="message" rows="3" placeholder='Tu mensaje...' required></textarea>
           </div>
           {/* FORMULARIO */}
           k

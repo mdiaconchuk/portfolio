@@ -23,7 +23,7 @@ function Home() {
         <div class="carousel-inner m-auto w-75">
           <div class="carousel-item active img-fluid">
           <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block rounded bg-dark">
             <a href="https://www.youtube.com/watch?v=erHzig4ppNU&list=LL&index=1"><h5>First slide label</h5></a>
               <p>Some representative placeholder content for the first slide.</p>
             </div>
@@ -31,7 +31,7 @@ function Home() {
 
           <div class="carousel-item img-fluid">
             <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block rounded bg-dark">
             <a href="https://www.youtube.com/watch?v=erHzig4ppNU&list=LL&index=1"><h5>Second slide label</h5></a>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
@@ -39,7 +39,7 @@ function Home() {
 
           <div class="carousel-item img-fluid">
             <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block">
+            <div class="carousel-caption d-none d-md-block rounded bg-dark">
             <a href="https://www.youtube.com/watch?v=erHzig4ppNU&list=LL&index=1"><h5>Third slide label</h5></a>
               <p>Some representative placeholder content for the third slide.</p>
             </div>

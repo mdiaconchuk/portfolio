@@ -64,10 +64,10 @@ const ParticlesBackground = () => {
                 },
                 particles: {
                     color: {
-                        value: "#ffffff",
+                        value: "#da6ff2",
                     },
                     links: {
-                        color: "#ffffff",
+                        color: "#4688f2",
                         distance: 100,
                         enable: true,
                         opacity: 0.5,
