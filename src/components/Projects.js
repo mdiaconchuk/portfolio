@@ -20,7 +20,7 @@ function Home() {
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
         </div>
 
-        <div class="carousel-inner m-auto w-75">
+        <div class="carousel-inner m-auto w-75 rounded">
           <div class="carousel-item active img-fluid">
           <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark">
@@ -29,7 +29,7 @@ function Home() {
             </div>
           </div>
 
-          <div class="carousel-item img-fluid">
+          <div class="carousel-item img-fluid rounded">
             <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark">
             <a href="https://www.youtube.com/watch?v=erHzig4ppNU&list=LL&index=1"><h5>Second slide label</h5></a>
@@ -37,7 +37,7 @@ function Home() {
             </div>
           </div>
 
-          <div class="carousel-item img-fluid">
+          <div class="carousel-item img-fluid rounded">
             <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark">
             <a href="https://www.youtube.com/watch?v=erHzig4ppNU&list=LL&index=1"><h5>Third slide label</h5></a>
