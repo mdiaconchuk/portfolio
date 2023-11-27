@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <ParticlesBackground/>
       <Routes>
-        <Route path="/portfolio/" element={<Portfolio />} />
+        <Route path="/" element={<Portfolio />} />
       </Routes>
     </div>
   );
