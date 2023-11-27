@@ -63,5 +63,6 @@ background-color: #1c1c1c;
 }
 
 .bigtitle {
-  font-family: 'Noto Sans TC', sans-serif;
+  font-family: Ubuntu, sans-serif;
+  font-size: 6vh
 }

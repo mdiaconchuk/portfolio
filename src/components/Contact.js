@@ -4,7 +4,7 @@ import emailjs from 'emailjs-com'
 import { useState } from 'react'
 
 function Contact() {
-  const [buttonText, setButtonText] = useState('Submit');
+  const [buttonText, setButtonText] = useState('Enviar');
 
   function enviarMail(e) {
     const form = document.getElementById('formContact')
@@ -16,7 +16,7 @@ function Contact() {
     try {
       e.preventDefault();
       emailjs.sendForm('service_2wsxgmb', 'template_q4hwmh9', form, 'oZL4atEcfGgQey3n5');
-      setButtonText('Done');
+      setButtonText('Enviado');
       submit.className = "btn btn-outline-success px-5 rounded-pill shadow-lg";
 
     }
