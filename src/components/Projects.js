@@ -9,7 +9,7 @@ function Home() {
       <p class="fs-2 text-decoration-underline text-info m-auto">Mis proyectos</p>
 
       <a href="./assets/docs/Matias Diaconchuk - CV.pdf" download="Matias Diaconchuk - CV.pdf">
-      <button type="button" class="btn btn-outline-light px-5 my-5 rounded-pill shadow shadow-lg">Descargar CV</button>
+        <button type="button" class="btn btn-outline-light px-5 my-5 rounded-pill shadow shadow-lg">Descargar CV</button>
       </a>
 
       {/* CARROUSEL */}
@@ -22,17 +22,17 @@ function Home() {
 
         <div class="carousel-inner m-auto w-75 rounded">
           <div class="carousel-item active img-fluid">
-          <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block rounded bg-dark">
-            <a href="https://www.youtube.com/watch?v=erHzig4ppNU&list=LL&index=1"><h5>First slide label</h5></a>
-              <p>Some representative placeholder content for the first slide.</p>
+            <img src="./assets/images/Perretes.png" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block rounded bg-dark rounded-5">
+              <h5>Perretes Ecommerce</h5>
+              <p>Demostración simple de un Ecommerce básico, segundo proyecto entregable.</p>
             </div>
           </div>
 
           <div class="carousel-item img-fluid rounded">
             <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark">
-            <a href="https://www.youtube.com/watch?v=erHzig4ppNU&list=LL&index=1"><h5>Second slide label</h5></a>
+              <h5>Second slide label</h5>
               <p>Some representative placeholder content for the second slide.</p>
             </div>
           </div>
@@ -40,7 +40,7 @@ function Home() {
           <div class="carousel-item img-fluid rounded">
             <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark">
-            <a href="https://www.youtube.com/watch?v=erHzig4ppNU&list=LL&index=1"><h5>Third slide label</h5></a>
+              <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
             </div>
           </div>
