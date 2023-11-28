@@ -5,12 +5,13 @@ import { useState } from 'react'
 
 function Contact() {
   const [buttonText, setButtonText] = useState('Enviar');
+  // const [nameText, setNameText] = useState("");
+    let nameRef = useRef(null)
+    let mailRef = useRef(null)
+    let msgRef = useRef(null)
 
   function enviarMail(e) {
     const form = document.getElementById('formContact')
-    let nombre = document.getElementsByName('user_name')
-    let mail = document.getElementsByName('user_mail')
-    let correo = document.getElementsByName('message')
     let submit = document.getElementById('submitButton')
 
     try {
@@ -18,6 +19,9 @@ function Contact() {
       emailjs.sendForm('service_2wsxgmb', 'template_q4hwmh9', form, 'oZL4atEcfGgQey3n5');
       setButtonText('Enviado');
       submit.className = "btn btn-outline-success px-5 rounded-pill shadow-lg";
+      nameRef.current.value = ""
+      mailRef.current.value = ""
+      msgRef.current.value = ""
 
     }
     catch (err) {
@@ -35,13 +39,13 @@ function Contact() {
 
         <form id="formContact" onSubmit={enviarMail}>
           <div class="mb-3">
-            <input type="text" class="bg-body-secondary form-control w-50 m-auto d-flex" name="user_name" placeholder="Tu nombre..." required />
+            <input type="text" class="bg-body-secondary form-control w-50 m-auto d-flex" name="user_name" placeholder="Tu nombre..." required ref={nameRef}/>
           </div>
           <div class="mb-3">
-            <input type="email" class="bg-body-secondary form-control w-50 m-auto" name="user_mail" placeholder="Tu mail..." required />
+            <input type="email" class="bg-body-secondary form-control w-50 m-auto" name="user_mail" placeholder="Tu mail..." required ref={mailRef}/>
           </div>
           <div class="mb-3">
-            <textarea class="form-control w-50 m-auto bg-body-secondary" name="message" rows="3" placeholder='Tu mensaje...' required></textarea>
+            <textarea class="form-control w-50 m-auto bg-body-secondary" name="message" rows="3" placeholder='Tu mensaje...' required ref={msgRef}></textarea>
           </div>
           {/* FORMULARIO */}
           k

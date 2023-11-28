@@ -1,8 +1,11 @@
 import React from 'react'
 import Navbar from './Navbar'
+import { useRef } from 'react'
 
 function Home() {
+
   return (
+
     <div id="projects" class="bggris">
       {/* titulo */}
       <br />
