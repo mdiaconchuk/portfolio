@@ -31,7 +31,7 @@ function Home() {
 
           <div class="carousel-item img-fluid rounded">
             <img src="./assets/images/WeatherChannel.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block rounded bg-dark">
+            <div class="carousel-caption d-none d-md-block rounded bg-dark rounded-5">
               <h5>Weather Channel</h5>
               <p>Proyecto básico, se hace consumo de una API para demostrar el clima de la zona a elección.</p>
             </div>
@@ -39,7 +39,7 @@ function Home() {
 
           <div class="carousel-item img-fluid rounded">
             <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
-            <div class="carousel-caption d-none d-md-block rounded bg-dark">
+            <div class="carousel-caption d-none d-md-block rounded bg-dark rounded-5">
               <h5>Third slide label</h5>
               <p>Some representative placeholder content for the third slide.</p>
             </div>
