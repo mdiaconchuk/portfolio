@@ -44,7 +44,7 @@ function Home() {
             <img src="./assets/images/typer.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark rounded-5">
               <h5>Typer 3000</h5>
-              <p>Minijuego básico, repaso general.</p>
+              <p>Minijuego básico, primer proyecto.</p>
             </div>
           </div></a>
         </div>
