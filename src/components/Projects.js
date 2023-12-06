@@ -24,29 +24,29 @@ function Home() {
         </div>
 
         <div class="carousel-inner m-auto w-75 rounded">
-          <div class="carousel-item active img-fluid">
+          <a href="https://perretes-ecommerce.vercel.app/" target="_blank"><div class="carousel-item active img-fluid">
             <img src="./assets/images/Perretes.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark rounded-5">
               <h5>Perretes Ecommerce</h5>
-              <p>Demostración simple de un Ecommerce básico, segundo proyecto entregable.</p>
+              <p>Demostración simple de un Ecommerce básico.</p>
             </div>
-          </div>
+          </div></a>
 
-          <div class="carousel-item img-fluid rounded">
+          <a href="https://weatherchannel-ebon.vercel.app/" target="_blank"><div class="carousel-item img-fluid rounded">
             <img src="./assets/images/WeatherChannel.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark rounded-5">
               <h5>Weather Channel</h5>
-              <p>Proyecto básico, se hace consumo de una API para demostrar el clima de la zona a elección.</p>
+              <p>Proyecto básico, consumo de una API para demostrar el clima de la zona.</p>
             </div>
-          </div>
+          </div></a>
 
-          <div class="carousel-item img-fluid rounded">
-            <img src="./assets/images/samplework.png" class="d-block w-100" alt="..." />
+          <a href="https://typer3000-phi.vercel.app/" target="_blank"><div class="carousel-item img-fluid rounded">
+            <img src="./assets/images/typer.png" class="d-block w-100" alt="..." />
             <div class="carousel-caption d-none d-md-block rounded bg-dark rounded-5">
-              <h5>Third slide label</h5>
-              <p>Some representative placeholder content for the third slide.</p>
+              <h5>Typer 3000</h5>
+              <p>Minijuego básico, repaso general.</p>
             </div>
-          </div>
+          </div></a>
         </div>
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
